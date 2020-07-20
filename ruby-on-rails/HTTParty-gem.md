@@ -12,3 +12,4 @@ HTTParty.post(
     body: JSON.dump(api_message),
     headers: { "Content-Type" => "application/json" }
 )
+```
