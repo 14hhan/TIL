@@ -1,6 +1,6 @@
 # FlutterSecureStorage
 secure storage에 데이터를 저장해놓기 위한 플러터 플러그인이다. 
-## 사용법
+## 사용 예시
 ```dart
 import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 
