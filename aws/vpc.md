@@ -10,3 +10,9 @@ https://www.44bits.io/ko/post/understanding_aws_vpc
 
 ## 참고
 https://medium.com/harrythegreat/aws-%EA%B0%80%EC%9E%A5%EC%89%BD%EA%B2%8C-vpc-%EA%B0%9C%EB%85%90%EC%9E%A1%EA%B8%B0-71eef95a7098 - 개념 이해하기 쉽게 정리되어 있으므로 헷갈릴 때 읽어보면 좋음
+
+### VPC 위에 만든 EC2 인스턴스에 DNS 할당이 되지 않을 경우
+인스턴스에 DNS를 자동 할당해 주기 위해서는 **VPC 목록**에서 해당 VPC를 선택하고 **작업 -> DNS 호스트 이름 편집 -> DNS 호스트 이름 활성화에 체크** 한다. 
+
+### VPC 위에 만든 EC2 인스턴스에 퍼블릭 IP 할당이 되지 않을 경우
+인스턴스에 퍼블릭 IP를 자동 할당해 주기 위해서는 **서브넷 목록**에서 해당 서브넷을 선택하고 **작업 -> 자동 할당 IP 설정 수정 -> 퍼블릭 IPv4 주소 자동 할당 활성화에 체크** 한다.
